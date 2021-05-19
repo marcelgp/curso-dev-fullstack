@@ -1,0 +1,33 @@
+body {
+    background: #dfdfdf;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(34,34,34); 
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.foto-principal {
+    width: 170px;
+    border: 2px double #FFFFFF; /*propriedade shorthand*/
+    border-radius: 50%; /*ou border-radius: 50% 50% 50% 50%;*/
+    margin: 30px; /*shorthand*/
+    box-shadow: 0px 0px 10px #797777; 
+}
+
+h1 {
+    margin-bottom: 0px;
+    letter-spacing: -1px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 40;
+}
+
+h2 {
+    margin-top: 0px;
+    font-style: italic;
+    color: #656262;
+    font-weight: 100;
+    letter-spacing: -1px;
+}
