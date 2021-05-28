@@ -1,0 +1,34 @@
+
+::selection {
+    color: orangered;
+    background: black;
+}
+
+p::first-line {
+    color: orange;
+}
+
+p::first-letter {
+    color: Red;
+    font-size: 50px;
+}
+
+h1::before {
+    background: url(https://p.kindpng.com/picc/s/185-1851552_rocket-icon-black-hd-png-download.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    content: "";
+    margin-right: 10px;
+}
+
+h1::after {
+    background: url(https://p.kindpng.com/picc/s/185-1851552_rocket-icon-black-hd-png-download.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    content: "";
+    margin-left: 10px;
+}
